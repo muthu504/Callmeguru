@@ -92,3 +92,5 @@ insert into customermessages(email,phone,subject,description) values('saivasant1
 
 commit;
 
+commit;
+
