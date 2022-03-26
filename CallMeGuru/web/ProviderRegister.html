@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <table align="center" border="0" width="70%">
+        <tr><td colspan="2" height="125" align="center" style="background: lavender"><img height="120" width="100%" src="guru.jpg"></td></tr>
+        <tr>       
+            <td height="600" colspan="2" align="center" style="background:gold">
+
+                <!-- Body Start-->		
+        <center>
+            <div class="reg">
+                <form name="frm"  method="get" action="/CallMeGuru/StoreProvider">
+
+                    <h1>Provider Form</h1>
+                    <div class="inputbox"> 
+                        <input  type="text"  name="txtName" >
+                        <label>Full Name</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="password"  name="txtPwd"  >
+                        <label>Password</label>
+                    </div>      
+                    <div class="inputbox">
+                        <input type="text"  name="txtEmail"  >
+                        <label>Email Id</label>
+                    </div>   
+                    <div class="inputbox">
+                        <input type="text"  name="txtPhone"  >
+                        <label>Mobile number</label>
+                    </div> 
+
+                    <div>
+                        <select  name=OpService>
+                            <option value=Service >Services</option>
+                            <option value=Mechanic>Mechanic</option>
+                            <option value=Mechanic>Madical</option>
+                            <option value=Other>Other</option>
+                        </select></div>
+                    <br><br>
+                    <div class="inputbox">
+                        <input type="text"  name="txtAddrs"  >
+                        <label>Address</label>
+                    </div> 
+                    <input type="submit"  value="register">
+                    <input type="submit"  value="Restart">
+                </form>
+            </div>
+        </center>
+        <!--Body End--->
+    </td>
+</tr>
+<tr><td colspan="2" align="center" style="background:lime;color:indigo">&copy;2019. All Rights Reserved</td></tr>
+</table>
+
+
+</body>
+</html>
